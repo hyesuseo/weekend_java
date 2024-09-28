@@ -1,0 +1,19 @@
+package loop;
+
+import java.util.Scanner;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		//반복적으로 입력받는 loop 만들기
+
+		Scanner scan = new Scanner(System.in);
+		
+		int num = 0;
+		int sum = 0;
+		
+		
+		
+	}
+
+}

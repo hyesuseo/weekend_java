@@ -1,0 +1,24 @@
+package array;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		// 정수타입의 배열을 길이가 5로 지정하여 생성 후
+		// 인덱스를 사용하여 각 배열의 요소에 
+		// 정수 100부터 500까지 저장하기(100,200,300,400,500)
+		//for문을 사용하여 배열의 각 요소 출력하기
+		
+		int[] intArray = new int[5];
+		
+		intArray[0]= 100;
+		intArray[1]= 200;
+		intArray[2]= 300;
+		intArray[3]= 400;
+		intArray[4]= 500;
+		
+		System.out.println();
+				
+
+	}
+
+}

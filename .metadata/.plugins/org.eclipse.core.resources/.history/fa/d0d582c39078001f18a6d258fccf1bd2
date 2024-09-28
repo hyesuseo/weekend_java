@@ -1,0 +1,23 @@
+package loop;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		
+		int i = 100;
+				
+		while (i == 200) {
+			System.out.println("while 문 안입니다.");
+		}
+		System.out.println("while문 밖 입니다.");
+
+		System.out.println();
+		
+		do {
+			System.out.println("do~ while문 안입니다.");
+				} while (i ==200); //세미콜론
+		
+		System.out.println("do~ while문 밖입니다. ");
+	}
+
+}

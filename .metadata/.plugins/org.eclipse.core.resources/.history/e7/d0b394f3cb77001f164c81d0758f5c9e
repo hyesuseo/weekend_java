@@ -1,0 +1,22 @@
+package condition;
+
+import java.util.Scanner;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner (System.in);
+		//정수 하나를 입력받아 if~ else 문을 사용하여
+		//짝수인지 홀수인지 출력하기
+		
+		char 
+		if(%=1) {
+			System.out.println("홀수입니다");
+		}else if {
+			System.out.println("짝수입니다")
+		}
+
+	}
+
+}

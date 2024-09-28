@@ -1,0 +1,14 @@
+package array;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+	
+		int[] intArray1 = {1, 2, 3};
+		//실제 값을 알고 있을 때
+		//선언과 동시에 배열을 생성하면 new 연산자 생략 가능
+		
+		
+	}
+
+}

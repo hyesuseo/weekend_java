@@ -1,0 +1,29 @@
+package loop;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		
+		int i;
+		
+		for (i = 1; i <= 5; i++) {
+			System.out.println("for문 안입니다, i: " + i);
+		}
+		System.out.println("for문을 나왔습니다... i :" + i);
+
+	System.out.println();
+		
+	//for 문을 사용하여 2, 4, 6, 8, 10을 출력하기
+	
+	int j;
+	
+	for (j = 2; j <=12; j+2)  {
+		System.out.println("정수 출력, j: " + j);
+	}
+		
+		
+		
+	}
+
+}

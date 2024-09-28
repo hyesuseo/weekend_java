@@ -1,0 +1,15 @@
+package loop;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		// 이중 for문과 * 하나를 사용하여 별모양 만들기...??
+		// system.out.print("*");
+		
+		System.out.print("*");
+		
+		
+
+	}
+
+}

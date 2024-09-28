@@ -1,0 +1,26 @@
+package loop;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		// 이중 for문과 * 하나를 사용하여 별모양 만들기...??
+		// system.out.print("*");
+		// ***** 다섯줄 만들기 다섯번 출력하고 줄바꿈 
+	
+		
+		
+		for(int i=0; i <5 ; i++) { //초기화를 어떻게 해야하는지 모르겠다..??ㅋㅋ
+			
+			for(int j = 0; j<5; j++) { System.out.print("*");	
+		}
+		
+			System.out.println();
+	}
+		for(int i=0; i <5 ; i++) {
+			
+			for(int j = 0; j <= i ; j++) { System.out.print("*");	//조건식을 j<=i로 바꿔주면
+			// 각각 한번/ 두번/세번/네번/다섯번씩 true가 나옴
+		}
+}
+}
+}

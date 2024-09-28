@@ -1,0 +1,30 @@
+package operation;
+
+import java.util.Scanner;
+
+public class Ex04 {
+
+	public static void main(String[] agrs ) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int money, c500, c100, c50, c10;
+		
+		System.out.print("동전으로 교환할 돈은: ");
+		money = scan.nextInt();
+		
+		c500 = money / 500;
+		c100 = (money-500*c500) / 100;
+		c50 = money / 50;
+		c10 = money / 10; 
+		
+		
+		
+		System.out.println("오백원 동전 : " + c500 + "개");
+		System.out.println("백원 동전 : " + c100 + "개");
+		System.out.println("오십원 동전 : " + c50 + "개");
+		System.out.println("십원 동전 : " + c10 + "개");
+		System.out.println("바꾸지 못한 잔돈 : " + money + "원");
+		
+	}
+}

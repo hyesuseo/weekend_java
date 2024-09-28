@@ -1,0 +1,17 @@
+package loop;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		
+		int i = 100;
+		
+		
+		while (i == 200) {
+			System.out.println("while 문 안입니다.");
+		}
+		System.out.println("while문 밖 입니다.");
+
+	}
+
+}
