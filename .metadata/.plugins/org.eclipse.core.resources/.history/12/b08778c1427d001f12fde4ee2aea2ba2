@@ -1,0 +1,18 @@
+package array;
+
+import java.util.Scanner;
+
+public class Ex08 {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		String[] name = new String[3];
+		int[] kor = new int[3];
+		int[] eng = new int[3];
+		int[] total = new int[3];
+		int[] rank = new int[3];
+
+	}
+
+}

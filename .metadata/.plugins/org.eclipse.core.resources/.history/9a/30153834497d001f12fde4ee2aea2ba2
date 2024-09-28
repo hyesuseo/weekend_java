@@ -1,0 +1,21 @@
+package array;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		// 다차원 배열 (2차원 배열)
+		// 배열 안에 배열이 들어있는 구조이다.
+		// (2차원 배열은 행과 열로 구성된 배열)
+
+		int[][] array = new int[2][2];
+		//행과 열의 길이가 2인 int타입의 배열
+	
+	array[0][0] = 10;
+	array[0][1] = 20;
+	array[1][0] = 30;
+	array[1][1] = 40;
+	
+	
+	}
+
+}

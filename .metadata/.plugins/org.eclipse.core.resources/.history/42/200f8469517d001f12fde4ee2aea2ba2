@@ -1,0 +1,15 @@
+package random;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		int[] lotto = new int[6];
+		//정수 1~45까지 6개 추첨
+		//Math.random을 사용하여
+		//로또 번호를 뽑아 lotto배열의 각 요소에 저장하기
+		
+		double a = Math.random()*100;
+		System.out.println(a);
+	}
+
+}

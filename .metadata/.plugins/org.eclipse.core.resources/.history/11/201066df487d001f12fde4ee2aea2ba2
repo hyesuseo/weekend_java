@@ -1,0 +1,12 @@
+package array;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		// 다차원 배열 (2차원 배열)
+		// 배열 안에 배열이 들어있는 구조이다.
+		// (2차원 배열은 행과 열로 구성된 배열)
+
+	}
+
+}
