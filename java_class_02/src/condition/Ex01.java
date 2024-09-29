@@ -25,7 +25,7 @@ System.out.println("if문과는 상관없습니다.");
 	
 	score = scan.nextInt();
 	
-	char grade;
+	char grade=0;
 	
 	//3개의 if 문을 사용하여 점수에 따라 A, B, C 등급으로 나누기
 		// score가 80점 미만이면 grade 에 c등급으로 초기화

@@ -1,10 +1,14 @@
 package condition;
 
+import java.util.Scanner;
+
 public class Ex04 {
 
 	public static void main(String[] args) {
 
-		int x = 2;
+		Scanner scan=new Scanner(System.in);
+		System.out.println("숫자를 입력해주세요: ");
+		int x = scan.nextInt();
 		//switch문 안에는 정수, 문자, 문자열
 		
 		switch(x) {
